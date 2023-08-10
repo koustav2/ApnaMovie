@@ -72,7 +72,6 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path=":mediaType/:id" element={<Details />} />
-                <Route path=":mediaType/:id/cast" element={<Cast />} />
                 <Route path="search/:query" element={<Result />} />
                 <Route path="explore/:mediaType" element={<Explore />} />
                 <Route path="*" element={<NotFound />} />
