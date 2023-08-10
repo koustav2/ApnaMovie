@@ -13,7 +13,6 @@ import Details from './pages/details/MovieDetails';
 import NotFound from './pages/404/NotFound';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Cast from './pages/cast/Cast';
 
 function App() {
     const dispatch = useDispatch()
