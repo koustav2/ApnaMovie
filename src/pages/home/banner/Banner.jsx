@@ -59,7 +59,10 @@ const Banner = () => {
               onChange={(e) => setQuery(e.target.value)}
               onKeyUp={queryHandler}
             />
-            <button>Search</button>
+            <button
+              className="searchBtn"
+              onClick={() => navigate(`/search/${query}`)}
+            >Search</button>
           </div>
         </div>
       </ContentWrapper>
